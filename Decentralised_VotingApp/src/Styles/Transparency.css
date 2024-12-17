@@ -1,0 +1,13 @@
+.transparencybody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transimg{
+    background-image: url('../Assets/transparency.png');
+    height: 500px;
+    width: 100%;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Keeps the image centered */
+}

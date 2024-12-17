@@ -1,0 +1,128 @@
+/* Footer.css */
+
+.footer {
+    background-color: black; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 50px 0; /* Increased padding for a more spacious look */
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px; /* Increased gap for spacing between sections */
+    width: 100%;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px; /* Increased padding */
+  }
+  
+  .footer-brand {
+    flex: 1 1 200px;
+  }
+  
+  .footer-brand h2 {
+    font-size: 26px; /* Slightly larger font size for the brand name */
+    margin-bottom: 15px;
+  }
+  
+  .footer-brand p {
+    font-size: 16px; /* Increased font size for description */
+    color: #bbb;
+    max-width: 350px;
+    line-height: 1.6; /* Added line height for readability */
+  }
+  
+  .footer-column {
+    flex: 1 1 200px;
+  }
+  
+  .footer-column h4 {
+    font-size: 20px; /* Slightly larger section titles */
+    margin-bottom: 20px;
+    color: #f1f1f1;
+  }
+  
+  .footer-links,
+  .footer-social {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li,
+  .footer-social li {
+    margin-bottom: 10px; /* Increased spacing between list items */
+  }
+  
+  .footer-links a,
+  .footer-social a {
+    font-size: 16px; /* Larger font size for links */
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover,
+  .footer-social a:hover {
+    color: #fff;
+  }
+  
+  .footer-social a i {
+    font-size: 22px; /* Increased icon size */
+    margin-right: 12px; /* Slightly larger space between icons and links */
+    transition: color 0.3s;
+  }
+  
+  .footer-quote {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  .footer-quote h4 {
+    font-size: 20px;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+  }
+  
+  .footer-quote p {
+    font-size: 16px; /* Increased font size for quote text */
+    color: #bbb;
+    max-width: 350px;
+    font-style: italic;
+    line-height: 1.6; /* Added line height for readability */
+  }
+  
+  .footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; /* Increased margin above footer-bottom section */
+    font-size: 16px; /* Increased font size for copyright text */
+    color: #bbb;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px; /* Adjusted gap for smaller screens */
+    }
+  
+    .footer-column,
+    .footer-brand,
+    .footer-quote {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  

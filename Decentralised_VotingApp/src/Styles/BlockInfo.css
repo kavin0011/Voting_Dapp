@@ -1,0 +1,58 @@
+.icon-button-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .icon-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease;
+    z-index: 0;
+    color: white;
+    gap: 10px;
+  }
+  
+  .icon-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 25px;
+    padding: 2px; /* Reduced border thickness */
+    background: linear-gradient(45deg, #00FFFF, #FF00FF);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+    mask-composite: exclude;
+    z-index: -1;
+  }
+  
+  
+  .icon-button:hover {
+    background-color: #282828;
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+  
+  .button-text {
+    font-size: 14px;
+  }
+  
+  .blockinfo-1{
+    margin-top: -50px;
+    width: 90%;
+    height: 50px;
+  }

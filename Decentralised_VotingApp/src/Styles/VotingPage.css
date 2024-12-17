@@ -1,0 +1,97 @@
+.VotingPagePlacer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.VotingPage-Heading{
+    font-family: 'Poppins';
+    font-size: 80px; /* Adjust size as needed */
+    font-weight: 300;
+    display: inline-block;
+    background: linear-gradient(to left, #00848D, #81035E); /* Gradient colors */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent;
+}
+.VotingPage-SubHeading{
+font-family: 'Poppins';
+font-size: small;
+color: rgb(168, 168, 168);
+font-size: 2rem;
+margin-top: -20px;
+}
+.VotingPage-card{
+    padding: 2px;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+
+        background-color: aliceblue;
+}
+.VotingPage-Flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d2d2d;
+    border: 1px solid #4b4b4b;
+    border-radius: 20px;
+    height: 230px;
+    width: 100%;
+    object-fit:contain;
+    overflow:hidden; 
+}
+.VotingPage-Flag-Name{
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.VotingPage-Flag-Leader{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    margin-top: -10px;
+}
+.VotingPage-Flag-Moto{
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+    color: #81035E;
+    margin-top: 25px;
+}
+.VotingPage-Flag-para{
+    margin-top: -10px;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 500;
+}
+.VotingPage-Flag-Placer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.VotingPage-Flag-Placer1{
+    gap: 50px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Content-Placer{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.Vote-Button{
+    padding: 10px 20px;
+    margin-top: auto; /* Pushes the button to the bottom */
+    align-self: center; /* Center aligns the button horizontally */
+    background-color: #4CAF50; /* Example color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}

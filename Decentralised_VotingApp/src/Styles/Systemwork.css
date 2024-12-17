@@ -1,0 +1,34 @@
+.systemworkbody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.system-container-1{
+    display: flex;
+}
+.system-container-1 img{
+    width: 750px;
+    height: 400px;
+}
+
+.system-container-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.system-container-text{
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 70px; /* Adjust size as needed */
+    line-height: 1.2;
+    font-weight: 300;
+    display: inline-block;
+    background: linear-gradient(to left, #00848D, #81035E); /* Gradient colors */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent;
+}

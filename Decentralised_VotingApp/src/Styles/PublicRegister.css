@@ -1,0 +1,80 @@
+/* Container Styling */
+.formDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: repeating-radial-gradient(#0c0a0a 80%, #2f312f 90%, #3f4549 90%);
+    background-size: 65px 65px;
+  }
+  
+  .form-container {
+    width: fit-content;
+    padding: 20px 50px;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Title Styling */
+  .form-title {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+  }
+  
+  /* Form Content Styling */
+  .form-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  
+  /* Left Side */
+  .form-left, .form-right {
+    width: fit-content;
+    text-align: left;
+  }
+  
+  /* Input Labels */
+  .form-label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #bdbdbd;
+  }
+  
+  /* Inputs Styling */
+  .form-input {
+    padding: 12px;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    font-family: 'Poppins';
+  }
+  
+  /* Button Styling */
+  .register-btn {
+    font-family: 'Poppins';
+    padding: 15px 40px;
+    background-color: #2d2d2d;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  

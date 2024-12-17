@@ -1,0 +1,353 @@
+body{
+    background-color: black;
+
+}
+
+.wallet{
+   /* position: relative; */
+   width: 150px;
+   height: 50px;
+   font-family:sans-serif;
+   font-size: larger;
+   color: white;
+   background-color: rgb(66, 63, 63);
+   border-radius: 5px;
+}
+
+.wallet.hover{
+  background-color: rgb(41, 39, 39);
+}
+.wallet_div{
+  position: absolute;
+  left: 87%;
+  bottom: 92%;
+  z-index: 10;
+  /* flex-direction: column-reverse; */
+  justify-content: end;
+}
+
+.hero-section{
+    display: flex;
+    padding: 100px;
+    gap: 80px;
+}
+.Hero-container1{
+    display: flex;
+    flex-direction: column;
+}
+.container1-sub1{
+    display: flex;
+    gap: 50px;
+}
+.Register{
+    height: 230px;
+    width: 432px;
+    background: rgba(255, 255, 255, 0.2); /* Slightly less transparent on hover */
+    border-radius: 40px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+.Total-users{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.2); /* Slightly less transparent on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+
+.container1-sub2 {
+    
+}
+  
+.container1-sub2-title-text {
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 93px; /* Adjust size as needed */
+    line-height: 1.2;
+    font-weight: 300;
+    display: inline-block;
+    background: linear-gradient(to left, #00848D, #81035E); /* Gradient colors */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent */
+  }
+  
+  
+  .container1-sub2-italic-text {
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: wheat;
+  }
+  
+  
+  .logosof-container1-sub2 {
+    padding-left: 80px;
+    display: inline-block; /* Allows span to have width and height */
+    background-image: url('../Assets/blockchainlogos.png');
+    background-size: contain; /* Ensures the image fits within the span */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 60px;
+    vertical-align: middle; /* Adjust the vertical alignment if necessary */
+}
+.logosof-container1-sub2-text{
+    font-size: small;
+    width: 175px;
+    margin-left: 80px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Poppins';
+    z-index: 99;
+}
+
+.container1-sub3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.container1-sub3-p{
+    color: rgb(134, 134, 134);
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 20px;
+    
+}
+.Arrow{
+    display: inline-block; /* Allows span to have width and height */
+    background-image: url('../Assets/arrow.png');
+    background-size: contain; /* Ensures the image fits within the span */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+
+}
+.REgister-button {
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blurs the background behind the button */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Slightly transparent border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: white; /* Button text color */
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.REgister-button:hover {
+    background: rgba(255, 255, 255, 0.2); /* Slightly less transparent on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+.Arrow-placer{
+    padding-left: 190px;
+}
+.container1-sub3-p-span{
+    color: white;
+}
+/* ---------------------------Hero-container2--------------------------- */
+.Hero-container2{
+    /* background-color: aqua; */
+}
+.vote-demo-card {
+    position: relative;
+    width: 800px;  /* Adjust width to match the desired size */
+    height: 650px; /* Adjust height to match the desired size */
+    border-radius: 30px; /* Rounded corners */
+    overflow: hidden; /* To ensure child elements don’t overflow */
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image scales properly */
+    border-radius: 15px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:50px ;
+    border-top-right-radius:50px ;
+  }
+  
+  .main-text {
+    font-family: 'Poppins';
+    font-size: 50px;
+    text-align: left;
+    line-height: 1;
+    font-weight: 500
+  }
+  
+  .sub-text {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #b6b6b6;
+    font-weight: lighter;
+    text-align: left;
+  }
+  
+  .vertical-line {
+    width: 1px; /* Width of the vertical line */
+    height: 150px; /* Height of the vertical line */
+    background-color: white; /* Color of the vertical line */
+    margin: 0 20px; /* Space around the vertical line */
+  }
+  .TotalUserPlacer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Total-usersdiv1{
+    background-color: rgb(161, 161, 161);
+    height: 60px;
+    width: 280px;
+    border-radius: 20px;
+}
+.Total-userdiv2{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 280px;
+    border-radius: 20px;
+    text-align: left;
+
+  }
+  .Total-userdiv2-p1{
+    font-family: 'Montserrat';
+    font-size: 17px;
+    line-height: 1px;
+    margin-left: 20px;
+    color: #b6b6b6;
+  }
+  .Total-userdiv2-p2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    line-height: 1px;
+    font-weight: 300;
+    color: rgb(186, 186, 186);
+  }
+  .Register-placer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 40px;
+  }
+  .Register-div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    width: 150px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #d7d7d7;
+    margin-left: -50px;
+  }
+  .RegisterNow{
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+    margin-top: -30px;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blurs the background behind the button */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Slightly transparent border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: white; /* Button text color */
+    transition: all 0.3s ease-in-out; 
+  }
+  .Register-div2{
+    width: 100px;
+    height: 100px;
+  }
+  .secimg{
+    height: 230px;
+  }
+
+  /* Style for the voter ID input and buttons */
+.voter-id-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  margin-left: 10px;
+  /* margin-top: 15px; */
+}
+
+.voter-id-input {
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+.voter-id-input::placeholder {
+  color: #b6b6b6;
+}
+
+
+.vote-button {
+  border-radius: 30px;
+  padding: 20px 40px;
+  font-size: 18px;
+  margin-left: 15px;
+  font-family: 'Poppins', sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.verify-button{
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.verify-button:hover,
+.vote-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
